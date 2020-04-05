@@ -2,7 +2,7 @@
 Tutorial of the Elasticsearch, Logstash and Kibana. 
 
 
-##LECTURE 1: 
+## LECTURE 1: 
 These tutorial is for windows. Please modify the commands based on the OS.
 
 
@@ -38,7 +38,7 @@ These tutorial is for windows. Please modify the commands based on the OS.
 	- Type in the command "kibana.bat" after navigating to the bo folder
 	- Verify by going to localhost:5601
 
-4. **Putting values into Kibana	**
+4. **Putting values into Kibana**
 	
 	- Head to the dev tools, to the right of the screen
 	 
