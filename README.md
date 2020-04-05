@@ -49,14 +49,15 @@ These tutorial is for windows. Please modify the commands based on the OS.
 	 
 	 PUT vehicles/_create/3
 		 
-  
- ```{
+  ```
+ {
 	"Make": "Aston Martin",
 	"Model": "DB9",
 	"CountryOfOrigin": "GBR",
 	"Currency": "GBP",
 	"Cost": "120,000"
-}```
+}
+```
 
   
   
