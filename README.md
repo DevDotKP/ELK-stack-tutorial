@@ -75,12 +75,12 @@ These tutorial is for windows. Please modify the commands based on the OS.
 		
 7. **Delete a document**
 	
-	SYNTAX: ```DELETE {index}/_doc/{id}```
+	SYNTAX: ```DELETE {index}/_doc/{id} ```
 	
 # PART 2:
 
 ## INDEXING
-
+``` ```
 	- The process of inserting documents is called **indexing**. 
 	- It is a very slow process (comparatively)
 	- ### The data is ingested by the ES and undergoes text analysis
