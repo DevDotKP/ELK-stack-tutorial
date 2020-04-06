@@ -82,17 +82,17 @@ These tutorial is for windows. Please modify the commands based on the OS.
 ## INDEXING
 - The process of inserting documents is called **indexing**. 
 - It is a very slow process (comparatively)
-- ### The data is ingested by the ES and undergoes text analysis
-      - Text analysis is made of 2 parts
-		- a. * Tokenising *
-		  - Tokenises the entire document
-		    - b. * Filtering *
-		      - Post tokenising, the following procedure is followed
-			- Stemming: Gets the root of the word. Eg: 'Running' and 'runners' share the same root 'run'
-			- Removal of stop words: Commonly used words/articles like 'a', 'an', 'the' etc.
-			- Lowercasing: Since ES is case sensitive
-			- Synonyms: As the name suggests
+- The data is ingested by the ES and undergoes text analysis
+  - Text analysis is made of 2 parts
+    - a. * Tokenising *
+      - Tokenises the entire document
+    - b. * Filtering *
+      - Post tokenising, the following procedure is followed
+	- Stemming: Gets the root of the word. Eg: 'Running' and 'runners' share the same root 'run'
+	- Removal of stop words: Commonly used words/articles like 'a', 'an', 'the' etc.
+	- Lowercasing: Since ES is case sensitive
+	- Synonyms: As the name suggests
 	
-	- Post indexation, an inverted index is created.
-	- This inverted index is now stored inside a memory cache
-	- The memory cache in put in a shard.
+- Post indexation, an inverted index is created.
+- This inverted index is now stored inside a memory cache
+- The memory cache in put in a shard.
