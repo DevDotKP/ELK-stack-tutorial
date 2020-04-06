@@ -2,7 +2,7 @@
 Tutorial of the Elasticsearch, Logstash and Kibana. 
 
 
-## **_LECTURE 1_**: 
+## **LECTURE 1**: 
 These tutorial is for windows. Please modify the commands based on the OS.
 
 
@@ -81,7 +81,7 @@ These tutorial is for windows. Please modify the commands based on the OS.
 
 ## INDEXING
 
-	- The process of inserting documents is called ** indexing **. 
+	- The process of inserting documents is called **indexing**. 
 	- It is a very slow process (comparatively)
 	- ### The data is ingested by the ES and undergoes text analysis
 		- Text analysis is made of 2 parts
