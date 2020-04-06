@@ -79,7 +79,8 @@ These tutorial is for windows. Please modify the commands based on the OS.
 	
 # PART 2:
 
-## INDEXING```
+## INDEXING
+``````
 
 	- The process of inserting documents is called **indexing**. 
 	- It is a very slow process (comparatively)
